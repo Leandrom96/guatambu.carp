@@ -1,0 +1,143 @@
+/*---------- ajustes generales ----------*/
+*{ 
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+}
+/*---------- barra de navegacion ----------*/
+header{
+  width: 100%;
+}
+.navegacion{
+  background-color: #AC8B68;
+  padding: 5px 5%;
+  position: fixed;
+  
+}
+.logoguatambu img{
+  height: 70px;
+  width: auto;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.logoguatambu img:hover{
+  transform: scale(1.1);
+}
+.navegacion nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navegacion nav ul{
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*es lo mismo que menu*/
+.navegacion nav ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  padding: 12px;
+  display: block;
+  transition: all 0.2s linear;
+  
+}
+.navegacion .menu li a{
+  font-weight: 300;
+}
+.navegacion nav ul li a:hover{
+  color: #723b00;
+  font-weight: 400;
+  transform: scale(1.1);
+}
+
+.menu{
+  text-transform: uppercase;
+}
+
+
+.submenu{
+  
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 6px;
+  font-size:x-large;
+
+}
+.submenu{
+  
+  position: absolute;
+  background-color: #AC8B68;
+  
+}
+.navegacion nav ul li ul{
+  display: none;
+
+}
+/*es lo mismo que submenu*/
+.navegacion nav ul li:hover > ul{
+  display: block;
+  
+}
+/*---------- cuerpo ----------*/
+body{
+  height: 100%;
+  width: auto;
+}
+  
+main img{
+  max-width: 100%;
+}
+/*---------- productos pag inicio ----------*/
+/*---------- medios de pago ----------*/
+/*---------- contacto ----------*/
+
+.flex_container{
+
+}
+
+.form{
+
+
+}
+
+.form_input{
+
+}
+
+.form_input:focus{
+	
+	
+
+}
+
+.form textarea{
+	
+}
+
+.form-img{
+
+}
+
+.img-container{
+
+}
+
+.form-img img{
+
+	
+}
+
+::placeholder{
+  color:
+}
